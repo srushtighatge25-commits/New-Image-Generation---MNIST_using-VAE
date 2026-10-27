@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+# Large artifacts. The small decoder (models/vae_decoder.keras) is kept on purpose.
+vae_models.zip
+models/vae_encoder.keras
